@@ -1,18 +1,17 @@
-# factory-girl
+# factory_dudes
 
-[![Build Status](https://travis-ci.org/aexmachina/factory-girl.png)](https://travis-ci.org/aexmachina/factory-girl)
 
-`factory-girl` is a factory library for [Node.js](http://nodejs.org/) and the browser that is inspired by [Factory\_girl](http://github.com/thoughtbot/factory_girl). It works asynchronously and supports associations and the use of functions for generating attributes.
+`factory_dudes` is a factory library for [Node.js](http://nodejs.org/) and the browser that is inspired by [Factory\_girl](http://github.com/thoughtbot/factory_girl). It works asynchronously and supports associations and the use of functions for generating attributes.
 
 ## Installation
 
 Node.js:
 
 ```bash
-npm install factory-girl
+npm install factory_dudes
 ```
 
-To use `factory-girl` in the browser or other JavaScript environments, there are
+To use `factory_dudes` in the browser or other JavaScript environments, there are
 builds for numerous module systems in the `dist/` directory.
 
 ## Usage
@@ -23,7 +22,7 @@ user factory.
 Here's the crash course:
 
 ```javascript
-const factory = require('factory-girl').factory;
+const factory = require('factory_dudes').factory;
 const User    = require('../models/user');
 
 factory.define('user', User, {
